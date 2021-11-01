@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
   }
   
   .piano {
@@ -19,7 +21,9 @@
     height: calc(var(--width) * 4);
     width: var(--width);
   }
-  
+  .key-letter {
+      margin-top: 200px;
+  }
   .white {
     --width: 100px;
     background-color: white;
@@ -36,6 +40,7 @@
     margin-left: calc(var(--width) / -2);
     margin-right: calc(var(--width) / -2);
     z-index: 2;
+    color: white; 
   }
   
   .black.active {
